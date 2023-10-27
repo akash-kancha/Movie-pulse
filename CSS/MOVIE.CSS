@@ -1,0 +1,107 @@
+H1{
+    border-radius: 50px;
+    background-color: black;
+
+    padding: 10PX;
+    transition:box-shadow 2s ;
+
+    color: white;
+
+}
+H1:hover{
+    box-shadow: 2px 4px 20px black;
+
+}
+
+*{
+
+    background-color:darkgrey;
+
+    color: WHITE;
+
+    text-align: center;
+
+}
+
+.MAIN{
+
+    padding: 30PX;
+
+    margin-top: 20PX;
+
+    display: grid;
+
+    grid-template-columns: 1FR 1FR;
+
+    color: white;
+
+    width: 800PX;
+
+    margin-left: 200PX;
+
+ 
+
+}
+
+.PIC img{
+
+    margin-right: 5px;
+    border-radius: 50px;
+
+    border: 5PX SOLID black;
+
+    height: 320PX;
+
+    width: 290PX;
+    transition:box-shadow 2s ;
+
+}
+.PIC img:hover{
+    box-shadow: 2px 4px 20px black;
+
+}
+
+button{
+    transition:box-shadow 2s ;
+
+    border-radius: 50px;
+    width: 200PX;
+
+    background-color: RED;
+
+    height: 30px;
+
+}
+button:hover{
+    box-shadow: 2px 4px 20px red;
+
+}
+button:active{
+
+    width:150px;
+    background-color: green;
+}
+
+.TRAILER{
+    transition:box-shadow 2s ;
+    
+
+    border-radius: 60px;
+
+    border: 5PX SOLID black;
+
+    height:320px;
+
+}
+.TRAILER:hover{
+    box-shadow: 2px 4px 20px black;
+}
+
+
+iframe{
+    
+    height:320px;
+    border-radius: 55px;
+
+}
+ 
